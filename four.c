@@ -11,10 +11,10 @@ free(foo);
 
 int main() {
 
-while(1) {//thread 1
+while(1) //thread 1
 //On a connection
 foo=connection(); //thread 2
 //When the connection ends
 endConnection(foo)
-}
+
 }
